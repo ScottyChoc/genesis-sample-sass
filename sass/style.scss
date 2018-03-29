@@ -77,3 +77,18 @@
 - Print Styles
 */
 
+@import  "partials/_reset.scss";
+@import  "partials/_defaults.scss";
+@import  "partials/_structure-layout.scss";
+@import  "partials/_common-classes.scss";
+@import  "partials/_widgets.scss";
+@import  "partials/_plugins.scss";
+@import  "partials/_skip-links.scss";
+@import  "partials/_site-header.scss";
+@import  "partials/_site-navigation.scss";
+@import  "partials/_content-area.scss";
+@import  "partials/_sidebar.scss";
+@import  "partials/_footer-widgets.scss";
+@import  "partials/_site-footer.scss";
+@import  "partials/_media-queries.scss";
+@import  "partials/_print-styles.scss";
