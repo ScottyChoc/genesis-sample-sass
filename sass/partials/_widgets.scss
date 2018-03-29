@@ -1,0 +1,60 @@
+/* Widgets
+  ---------------------------------------------------------------------------------------------------- */
+  
+  .widget {
+    margin-bottom: 40px;
+    p:last-child {
+      margin-bottom: 0;
+    }
+    ul > li {
+      &:last-of-type {
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+      margin-bottom: 10px;
+    }
+    ol > li {
+      list-style-position: inside;
+      list-style-type: decimal;
+      padding-left: 20px;
+      text-indent: -20px;
+    }
+    li li {
+      border: 0;
+      margin: 0 0 0 30px;
+      padding: 0;
+    }
+  }
+  
+  .widget_calendar {
+    table {
+      width: 100%;
+    }
+    td, th {
+      text-align: center;
+    }
+  }
+  
+  /* Featured Content
+  --------------------------------------------- */
+  
+  .featured-content {
+    .entry {
+      border-bottom: 1px solid #eee;
+      margin-bottom: 20px;
+      &:last-of-type {
+        border-bottom: none;
+        margin-bottom: 0;
+      }
+    }
+    .entry-image {
+      height: 75px;
+      width: 75px;
+    }
+    .entry-title {
+      font-size: 16px;
+      font-size: 1.6rem;
+      margin-bottom: 5px;
+      margin-top: 10px;
+    }
+  }
